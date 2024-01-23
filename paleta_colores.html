@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica6_SASS</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+    <div class="container-100" id="principal">
+        <div class="row cabecera">
+            <div class="col-12 col-md-5 col-lg-3">
+                <img src="./img/sass-1-logo.png" alt="sass-logo">
+            </div>
+            <div class="col-12 col-md-7 col-lg-9">
+                <h1 class="titulo">
+                    Práctica 6
+                </h1>
+                <h2 class="sub-titulo">
+                    Diseño de Interfaces web - Preprocesador CSS: SASS
+                </h2>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <a href="redes_sociales.html">Redes Sociales</a>
+            <a href="paleta_colores.html">Paleta de Colores</a>
+            <a href="carta_fuentes.html">Carta de Fuentes</a>
+        </nav>
+        <h3>Colores principales</h3>
+        <h5>Estos son los colores principales de nuestro sitio web.</h5>
+
+        <div class="row justify-content-between">
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row justify-content-between">
+                    <div class="box col-12 col-md-12 col-lg-12" id=caja-1></div>
+                    <div class="row">
+                        <div class="col-6 col-md-6 col-lg-7 titulos">
+                            <p>Nombre: </p>
+                            <p>Color Hex: </p>
+                            <p>Color RGB: </p>
+                            <p>Color HSL: </p>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-5 text-end">
+                            <p>tomato</p>
+                            <p>#FF6347</p>
+                            <p>178/34/34</p>
+                            <p>Odeg/68%/42%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row justify-content-between">
+                    <div class="box col-12 col-md-12 col-lg-12" id="caja-2"></div>
+                    <div class="row">
+                        <div class="col-6 col-md-6 col-lg-7 titulos">
+                            <p>Nombre: </p>
+                            <p>Color Hex: </p>
+                            <p>Color RGB: </p>
+                            <p>Color HSL: </p>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-5 text-end">
+                            <p>limegreen</p>
+                            <p>#32CD32</p>
+                            <p>173/255/47</p>
+                            <p>84deg/100%/59%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row justify-content-between">
+                    <div class="box col-12 col-md-12 col-lg-12" id="caja-3"></div>
+                    <div class="row">
+                        <div class="col-6 col-md-6 col-lg-7 titulos">
+                            <p>Nombre: </p>
+                            <p>Color Hex: </p>
+                            <p>Color RGB: </p>
+                            <p>Color HSL: </p>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-5 text-end">
+                            <p>aqua</p>
+                            <p>#00FFFF</p>
+                            <p>178/34/34</p>
+                            <p>Odeg/68%/42%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row justify-content-between">
+                    <div class="box col-12 col-md-12 col-lg-12" id="caja-4"></div>
+                    <div class="row">
+                        <div class="col-6 col-md-6 col-lg-7 titulos">
+                            <p>Nombre: </p>
+                            <p>Color Hex: </p>
+                            <p>Color RGB: </p>
+                            <p>Color HSL: </p>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-5 text-end">
+                            <p>plum</p>
+                            <p>#DDA0DD</p>
+                            <p>178/34/34</p>
+                            <p>Odeg/68%/42%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3>Tonalidades</h3>
+        <h5>Estos colores son variaciones de tonalidad de nuestros colores primarios (25% más claro, normal y 75% más
+            oscuro), útiles para <i>hovers</i>, ilustraciones o pequeñas variaciones.</h5>
+        <div class="row justify-content-between">
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row">
+                    <h8 class="col-12 col-md-12 col-lg-12">tomato</h8>
+                </div>
+                <div class="row">
+                    <div class="box col-12 col-md-12 col-lg-12" id="gradient-1"></div>
+                </div>
+            </div>
+ 
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row">
+                    <h8 class="col-12 col-md-12 col-lg-12">limegreen</h8>
+                </div>
+                <div class="row">
+                    <div class="box col-12 col-md-12 col-lg-12" id="gradient-2"></div>
+                </div>
+            </div>
+        
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row">
+                    <h8 class="col-12 col-md-12 col-lg-12">aqua</h8>
+                </div>
+                <div class="row">
+                    <div class="box col-12 col-md-12 col-lg-12" id="gradient-3"></div>
+                </div>
+            </div>
+      
+            <div class="col-12 col-md-5 col-lg-2">
+                <div class="row">
+                    <h8 class="col-12 col-md-12 col-lg-12">plum</h8>
+                </div>
+                <div class="row">
+                    <div class="box col-12 col-md-12 col-lg-12" id="gradient-4"></div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <br>
+    <footer class="nav-bar">
+        <p>Yolanda Tain Gutiérrez</p>
+        <a href="https://github.com/YolandaTain/">Enlace a GitHub</a>
+        <p>Fecha de entrega: </p>
+    </footer>
+</body>
+
+</html>
